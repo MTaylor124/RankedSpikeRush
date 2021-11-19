@@ -1,0 +1,35 @@
+.m-about-container {
+    width: 95%;
+    /* height: 90vh; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.m-about-header {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: gold;
+    margin: 70px 0 30px;
+}
+.m-about-body {
+    width: 80%;
+    color: white;
+    text-align: justify;
+    margin-bottom: 1.3vh;
+    font-size: 1.2rem;
+    line-height: 1.05;
+}
+.m-about-body-bottom {
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 1.2rem;
+    line-height: 1.05;
+    font-weight: 600;
+}

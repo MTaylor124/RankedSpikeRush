@@ -1,0 +1,71 @@
+@import './desktop/HomeStyle.css';
+@import './desktop/NavStyle.css';
+@import './mobile/NavStyle.css';
+@import './desktop/NewsStyle.css';
+@import './desktop/AboutStyle.css';
+@import './desktop/ClipsStyle.css';
+@import './desktop/ContactStyle.css';
+
+@import './mobile/HomeStyle.css';
+@import './mobile//AboutStyle.css';
+
+@import './mobile/NewsStyle.css';
+
+@font-face {
+    font-family: 'Futura';
+    src: url("./Futura\ Extra\ Bold.otf") format("opentype");
+}
+
+.app-container {
+    height: 100%;
+    width: 100%;
+    font-family: 'Futura';
+}
+html, body { 
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: black; 
+}
+::-webkit-scrollbar {display:none;}
+
+.d-section-container {
+    /* background-color: rgba(173, 1, 1, 0.548); */
+    width: 78vw;
+    margin-left: 11vw;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-section-container {
+    /* background-color: rgba(173, 1, 1, 0.548); */
+    width: 100vw;
+    height: 90vh;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: rgb(121, 1, 1); */
+    background-color: #272932;
+
+}
+.desktop-background {
+    background-image: url('./finalgif.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+    width: 100%;
+    font-family: 'Futura';
+}
+
+.mobile-background {
+    height: 100%;
+    width: 100%;
+    font-family: 'Futura';
+}

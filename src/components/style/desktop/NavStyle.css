@@ -1,0 +1,107 @@
+.d-nav-container {
+    /* background-color: rgba(252, 216, 56, 0.76); */
+    background-color: #272932;
+    text-decoration: none;
+
+    width: 86vw;
+    position: sticky;
+    top: 0;
+    left: 7vw;
+    border-radius: 0 0 25px 25px;
+    z-index: 1000;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 5vh; */
+
+    height: 7vh;
+
+}
+.nav-desktop-brand {
+    /* color: rgb(146, 17, 17); */
+    color: white;
+    /* padding: 1vh 0; */
+    font-size: 2rem;
+    /* margin-left: 10%; */
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.d-nav-links {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.d-nav-links-item {
+    padding: 0 2vw;
+    text-transform: none;
+    /* color: rgb(146, 17, 17); */
+    color: white;
+    font-size: 1rem;
+    /* transition: 1s; */
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+    
+}
+.d-nav-links-item:hover {
+    background-color: rgba(255, 255, 255, 0.09);
+    /* font-size: 1.25rem; */
+}
+.d-nav-links-last {
+    padding: 0 2vw;
+    text-transform: none;
+    /* color: rgb(146, 17, 17); */
+    color: white;
+    font-size: 1rem;
+    /* transition: 1s; */
+    height: 100%;
+    width: 8vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 0 0 25px 0;
+}
+.d-nav-links-last:hover {
+    background-color: rgba(255, 255, 255, 0.09);
+    /* font-size: 1.25rem; */
+}
+.d-nav-brand-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1vw;
+}
+.d-nav-logo {
+    height: 6vh;
+}
+
+.d-footer-container {
+    /* background-color: rgba(252, 216, 56, 0.76); */
+    background-color: #272932;
+    text-decoration: none;
+
+    width: 86vw;
+    position: sticky;
+    bottom: 0;
+    left: 7vw;
+    border-radius: 25px 25px 0 0;
+    z-index: 1000;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* color: rgb(146, 17, 17); */
+    color: white;
+
+    height: 3vh;
+    font-size: 0.8rem;
+}

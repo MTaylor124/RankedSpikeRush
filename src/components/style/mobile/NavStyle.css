@@ -1,0 +1,63 @@
+.m-nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(252, 216, 56); */
+    background-color: #272932;
+    padding-bottom: 0.5vh;
+
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    height: 7vh;
+}
+.m-nav-header {
+
+}
+.m-nav-brand-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.m-nav-logo {
+    height: 6vh;
+}
+.m-nav-brand {
+    font-size: 1.3rem;
+    /* color: rgb(146, 17, 17); */
+    color: white;
+    /* font-weight: 600; */
+}
+.m-nav-item {
+    /* background-color: rgb(252, 216, 56); */
+    background-color: #272932;
+
+    /* color: rgb(146, 17, 17); */
+    color: white;
+    height: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+.m-footer-container {
+    /* background-color: rgb(252, 216, 56); */
+    background-color: #272932;
+
+    text-decoration: none;
+
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* color: rgb(146, 17, 17); */
+    color: white;
+    /* font-weight: 400; */
+    height: 3vh;
+    font-size: 0.8rem;
+}
