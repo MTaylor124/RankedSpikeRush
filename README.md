@@ -15,5 +15,5 @@
 # Changelog
 
 ## 11/19
-1. Created Repo for Pre-existing Portfolio
+1. Created Repo for Pre-existing Project
 2. Created README
