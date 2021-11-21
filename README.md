@@ -14,6 +14,13 @@
 
 # Changelog
 
+## 11/21
+1. Refactored Nav Section
+    * Links are now generated from data set
+    * Removed unecessary classes
+    * Used better CSS selectors and reordered rulesets to more appropriate order
+    * Removed unecessary divs
+
 ## 11/19
 1. Created Repo for Pre-existing Project
 2. Created README
