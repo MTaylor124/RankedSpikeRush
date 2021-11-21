@@ -10,7 +10,7 @@ import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles'
 import createMuiTheme from '@material-ui/core/styles/createMuiTheme'
 
 import Home from './components/Home/Home'
-import Nav from './components/Nav/Nav'
+import {Nav} from './components/Nav/Nav'
 import Clips from './components/Clips/Clips'
 
 import About from './components/About/About'
@@ -39,27 +39,24 @@ const theme = createMuiTheme({
 export default function App() {
 
     let desktopBackground
-    if (isMobile) {
-        desktopBackground = 'mobile-background'
-    } else {
-        desktopBackground = 'desktop-background'
-    }
+    if (isMobile) desktopBackground = 'mobile-background'
+    else desktopBackground = 'desktop-background'
 
-  return (
-    <MuiThemeProvider theme={theme}>
-        <Router>
-            <div className={desktopBackground}>
-                <Nav />
-                <Switch>
+    return (
+        <MuiThemeProvider theme={theme}>
+            <Router>
+                <div className={desktopBackground}>
+                    <Nav />
+                    <Switch>
                         <Route exact path='/' component={Home} />
                         <Route path='/clips' component={Clips} />
                         <Route path='/about' component={About} />
                         <Route path='/contact' component={Contact} />
                         <Route path='/news' component={News} />
-                </Switch>
-                <Footer />
-            </div>
-        </Router>
-    </MuiThemeProvider>
-  )
+                    </Switch>
+                    <Footer />
+                </div>
+            </Router>
+        </MuiThemeProvider>
+    )
 }
